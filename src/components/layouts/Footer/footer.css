@@ -1,0 +1,19 @@
+.footer {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 0;
+    background-color: var(--primary-bgColor);
+    color: white;
+}
+
+.footerTitle {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'RaleWay';
+    margin: 20px 0;
+}
+
+.footerSubTitle {
+    font-size: 12px;
+    font-family: 'Inter';
+}

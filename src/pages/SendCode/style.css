@@ -1,0 +1,452 @@
+.sendCodeWrapper {
+}
+
+.awesomeContainer {
+  width: 100%;
+  background-image: linear-gradient(#f4e1f2, #ebebeb, #ffd7fb);
+  max-width: 1200px;
+  margin: auto;
+}
+
+.awesomeWrapper {
+  width: 100%;
+  padding: 1px;
+}
+
+.awesomeText {
+  font-family: "Inter";
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  line-height: clamp(3.5rem, 3.9vw, 3rem);
+  font-weight: 800;
+  text-align: center;
+  margin: auto;
+  width: 535px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.awesomeTextSpan {
+  font-size: clamp(1.5rem, 3.5vw, 1.8rem);
+  margin-top: 10px;
+  line-height: 30px !important;
+  font-weight: 600;
+}
+
+.eNumberCon {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.eNumberWra {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.eNumLefSec {
+  width: 40%;
+}
+
+.NumleftText {
+  width: 80%;
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  line-height: clamp(2.5rem, 3.9vw, 3rem);
+  font-weight: 800;
+  text-align: center;
+  font-family: "Inter";
+  margin: auto;
+}
+
+.NumLeftNum {
+  font-family: "Inter";
+  font-size: clamp(1.5rem, 3.5vw, 1.8rem);
+  line-height: 30px;
+  font-weight: 600;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.sendBish {
+  font-family: "Inter";
+  width: 200px;
+  height: 50px;
+  border-radius: 9.09px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #fb2a63;
+  font-size: 19.88px;
+  color: #ffffff;
+  font-weight: 800;
+  margin: auto;
+}
+
+.sendBish:hover {
+  cursor: pointer;
+}
+
+.eNumRigSec {
+  width: 50%;
+  margin-top: 100px;
+  background-color: #f5f5f5;
+  border-radius: 13.77px;
+  padding-left: 30px;
+  margin-bottom: 100px;
+}
+
+.eNumRigText {
+  font-family: "Inter";
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  font-weight: 800;
+}
+
+.nextCon {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.nextText {
+  font-family: "Inter";
+  font-size: clamp(1.2rem, 3.5vw, 1.5rem);
+  line-height: clamp(1.8rem, 3.5vw, 2rem);
+  font-weight: 600;
+  margin-left: 30px;
+}
+
+.faqContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  background: #fb2a63;
+}
+
+.faqWrapper {
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+.NumTopWrap {
+  background: #f5f5f5;
+  margin-top: 105px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.numtopTitle {
+  font-family: "RaleWay";
+  font-size: clamp(1.2rem, 3.5vw, 1.5rem);
+  font-weight: 700;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.numtopText {
+  font-family: "RaleWay";
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.NumTopWrap1 {
+  background: #f5f5f5;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.faqTitle {
+  font-size: 43.46px;
+  color: white;
+  text-align: center;
+  font-family: "Gilroy-Bold";
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.faqAccTitle {
+  font-family: "Gilroy-Bold";
+  font-size: 43.46px;
+  color: #ffffff;
+}
+
+.otherFaq .faqContainer {
+  background: #ffffff;
+}
+
+.otherFaq .faqTitle {
+  color: black;
+}
+
+.otherFaq .faq-label {
+  color: black;
+}
+
+.otherFaq .faq-content {
+  color: black;
+}
+
+.otherFaq .faq-header {
+  border-bottom: 1px solid #a1a1a1;
+}
+
+.otherFaq .faq-label-active {
+  color: #052c65;
+}
+
+@media (max-width: 991px) {
+  .awesomeText {
+    width: 500px;
+  }
+
+  .NumleftText {
+    width: 80%;
+  }
+
+  .NumLeftNum {
+    margin-top: 25px;
+  }
+
+  .sendBish {
+    width: 180px;
+    height: 50px;
+  }
+
+  .eNumRigSec {
+    margin-top: 70px;
+    padding-left: 30px;
+    margin-bottom: 70px;
+  }
+
+  .nextText {
+    margin-left: 30px;
+  }
+
+  .nextCon {
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 778px) {
+  .NumleftText {
+    width: 80%;
+  }
+
+  .NumLeftNum {
+    margin-top: 22px;
+  }
+
+  .sendBish {
+    width: 160px;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .eNumRigSec {
+    margin-top: 40px;
+    padding-left: 30px;
+    margin-bottom: 70px;
+  }
+
+  .NumTopWrap {
+    margin-top: 70px;
+  }
+
+  .nextText {
+    margin-left: 30px;
+  }
+
+  .nextCon {
+    padding-bottom: 35px;
+  }
+}
+
+@media (max-width: 624px) {
+  .awesomeContainer {
+    background: white;
+  }
+
+  .awesomeText {
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+    border-radius: 6.76px;
+    color: black;
+    padding: 10px 0;
+  }
+
+  .eNumberWra {
+    flex-direction: column;
+  }
+
+  .faqContainer {
+    background-color: white;
+  }
+
+  .eNumLefSec {
+    width: 100%;
+  }
+
+  .NumleftText {
+    width: 90%;
+    padding-top: 0px;
+  }
+
+  .eNumRigSec {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+
+  .nextCon {
+    margin-bottom: 0px;
+  }
+
+  .eNumberCon {
+    background: white;
+  }
+
+  .NumTopWrap {
+    width: 90%;
+    margin: auto;
+    margin-top: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 9.96px;
+    background: #f5f5f5;
+  }
+  .NumTopWrap1 {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .faq-label {
+    font-family: "Raleway";
+    font-size: 21.73px !important;
+    color: #000000 !important;
+  }
+
+  .faq-label-active {
+    color: #052c65 !important;
+  }
+
+  .faq-content {
+    font-family: "Raleway";
+    font-size: 18.94px !important;
+    font-weight: 400;
+    color: #000000 !important;
+  }
+
+  .faqTitle {
+    color: #000000;
+    font-size: 21.73px;
+    font-weight: 800;
+  }
+
+  .chevron-icon {
+    font-size: 0px !important;
+  }
+
+  .faq-header {
+    border-bottom: 1px solid #737373 !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .awesomeText {
+    border-radius: 6.76px;
+  }
+
+  .sendBish {
+    width: 150px;
+    height: 40px;
+    font-size: 13px;
+    align-items: center;
+  }
+
+  .eNumRigSec {
+    padding-left: 20px;
+    margin-bottom: 70px;
+  }
+
+  .nextCon {
+    padding-bottom: 18px;
+  }
+
+  .nextText {
+    margin-left: 13px;
+  }
+
+  .editIcon {
+    font-size: 20px !important;
+  }
+
+  .nextCon img {
+    width: 20px !important;
+  }
+}
+
+.faq-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  border-bottom: 1px solid #e5e7eb;
+  transition: ease-in-out;
+}
+
+.faq-header:hover {
+  cursor: pointer;
+}
+
+.faq-label {
+  font-size: 32.59px;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s;
+  margin: 10px 0px;
+}
+
+.faq-label-active {
+  color: #052c65;
+}
+
+.chevron-icon {
+  font-size: 30px;
+  padding-left: 16px;
+  margin-left: 0.5rem;
+  transition: transform 0.3s;
+}
+
+.chevron-rotated {
+  transform: rotate(180deg);
+}
+
+.faq-content {
+  font-size: 21.73px;
+  padding-bottom: 15px;
+  transition: all 0.3s ease-in-out;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  font-family: "Gilroy-Medium";
+  line-height: 25.46px;
+  color: white;
+}
+
+.faq-content-open {
+  max-height: 100%;
+  opacity: 1;
+}

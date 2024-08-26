@@ -1,0 +1,195 @@
+.logoMenu {
+    margin: 20px 0 0 0;
+}
+
+.hero {
+    padding-bottom: 70px;
+}
+
+.hero .bigTitle {
+    margin: 0;
+}
+
+.section {
+    width: 50%;
+    height: 100%;
+    padding: 40px 0;
+}
+
+.iphone {
+    float: right;
+}
+
+.bg1 {
+    position: absolute;
+    width: 65%;
+    right: 0;
+    top: 0;
+    z-index: -5;
+}
+
+.bg2 {
+    position: absolute;
+    width: 54%;
+    left: 0;
+    top: 0;
+    z-index: -5;
+}
+
+
+.features {
+    padding: 36px 0 40px 0;
+    text-align: center;
+    background-color: #F6F6F6;
+    max-width: 1200px !important;
+    margin: auto;
+}
+
+.featureItems {
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.featureBox {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.featureIcon {
+    width: 130px;
+    height: 130px;
+    border-radius: 20px;
+    background-color: var(--primary-bgColor);
+}
+
+.featureIconImg2 {
+    /* width: auto; */
+}
+
+.featureIconImg1 {
+    width: 48%;
+}
+
+
+.greyBox {
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    padding: 14px 34px 24px 34px;
+}
+
+.greyBox p {
+    margin-left: 48px;
+}
+
+.fontInter {
+    font-family: 'Inter' !important;
+}
+
+@media screen and (max-width: 998px) {
+    .logoMenu {
+        width: 180px;
+    }
+
+    .hero {
+        padding-bottom: 0;
+    }
+
+    .iphone {
+        width: 80%;
+    }
+
+    .featureIcon {
+        width: 110px;
+        height: 110px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        padding: 0 !important
+    }
+
+    .logoMenu {
+        width: 160px;
+    }
+
+    .bg1 {
+        width: 100%;
+    }
+
+    .bg2 {
+        width: 100%;
+    }
+
+    .section {
+        width: 100% !important;
+    }
+
+    .iphoneSquare {
+        position: relative;
+        float: right !important;
+    }
+
+    .fontInter {
+        font-family: 'RaleWay' !important;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .hero .bigTitle {
+        text-align: center;
+    }
+
+    .iphoneSquare {
+        margin-bottom: 50px;
+    }
+
+    .iphone {
+        width: 82%;
+        margin-top: 20px;
+    }
+
+    .section {
+        margin-bottom: 20px;
+        padding: 15px 0;
+    }
+
+    .features {
+        padding: 18px 26px;
+    }
+
+    .featureBox {
+        width: 250px;
+        padding: 0;
+        margin: 12px 0;
+    }
+
+    .featureItems {
+        margin-top: -10px;
+    }
+
+    .featureIcon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .featureIconImg2 {
+        width: 80px;
+    }
+
+    .featureIconImg1 {
+        width: 55%;
+    }
+
+
+    .subTitleMargin {
+        margin: 0 !important;
+    }
+
+    .sectionMargin {
+        margin-bottom: 0;
+    }
+}
